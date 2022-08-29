@@ -1,8 +1,8 @@
 .main_div_exp{
   height:100vh;
-  width: calc(100% - 10px);
-  margin-top: 30%;
-  padding-bottom: 35%;
+  width: calc(100% - 9px);
+  margin: 30% 0 0 0;
+
   }
 .main_div_e{
   margin: 0 12% 0 12%;
@@ -32,7 +32,7 @@
     height: 10%;
   }
   .job_duties{
-    height: 45vh;
+    height: 50vh;
   }
   .job_duties ul{
     list-style: none;
@@ -55,7 +55,10 @@
   }
 
   @media only screen and (max-width: 769px) {
-    .main_div{
+    .main_div_exp{
+      padding-bottom: 30%;
+    }
+        .main_div{
       height:118vh;
       margin: 0 8% 0 3%;
       background:transparent;
