@@ -33,7 +33,7 @@ const Experience = () => {
                     data-aos-once="true"
         >
                     <div className="job_title">
-                        <p> Aye Lab</p>
+                        <p> AMPL Infotech</p>
                     </div>
 
                     <div className="job_duties">
@@ -69,15 +69,13 @@ const Experience = () => {
 
                     <div className="job_duties">
                         <ul>
-                        <li>Designed and developed a web application for the internal use of the organization
-                            </li>
                             <li>Worked with variety of languages such as Node, React, HTML, CSS
                             </li>
                             <li>Designed Front end for the company, mainly the login page, sign up page and dashboard for the company
                             </li>
                             <li>Worked in a team to design the schema for the backend and created a database using Node and Mongo
                             </li>                            
-                          
+                           <li>Communicate and collaborate with other engineers and team-members</li>
                         </ul>
                     </div>
 
