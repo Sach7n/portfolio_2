@@ -28,7 +28,9 @@
     height: 250%;
     width: 400%;
   }
-  
+  .image{
+    transform: translateY(28%);
+  }  
   .image_r {
     transform: translateX(10%);
   }
