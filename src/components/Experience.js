@@ -64,7 +64,7 @@ const Experience = () => {
                     data-aos-offset="0"
                 >
                     <div className="job_title">
-                        <p>Cultural Infusion</p>
+                        <p>BenchMark IT Services</p>
                     </div>
 
                     <div className="job_duties">
