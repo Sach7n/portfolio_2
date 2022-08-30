@@ -35,8 +35,9 @@ const App = () => {
       <MainNavigation scheme={theme} />
       <Hero />
       <About />
-      <Work />
       <Experience />
+      <Work />
+
       <Social />     </div>
   );
 };

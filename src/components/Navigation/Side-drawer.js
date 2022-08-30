@@ -45,6 +45,17 @@ const Sidedrawer = props => {
                         <Link
                             onClick={props.click}
                             activeClass="active"
+                            to="experience"
+                            spy={true}
+                            smooth={true}
+                            offset={-80}
+                            duration={700}>
+                            Experience
+                            </Link>
+                    </li>                    <li>
+                        <Link
+                            onClick={props.click}
+                            activeClass="active"
                             to="work"
                             spy={true}
                             smooth={true}
@@ -54,18 +65,7 @@ const Sidedrawer = props => {
                             </Link>
                     </li>
 
-                    <li>
-                        <Link
-                            onClick={props.click}
-                            activeClass="active"
-                            to="experience"
-                            spy={true}
-                            smooth={true}
-                            offset={-80}
-                            duration={700}>
-                            Experience
-                            </Link>
-                    </li>
+                    
                     <li onClick={props.click}>
                     <a href={pdf} target="_blank" rel="noopener noreferrer"><button>Resume</button></a>
                     </li>

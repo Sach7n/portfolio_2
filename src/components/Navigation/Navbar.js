@@ -39,6 +39,16 @@ const Navbar1 = props => {
                     <li>
                         <Link
                             activeClass="active"
+                            to="experience"
+                            spy={true}
+                            smooth={true}
+                            offset={-80}
+                            duration={700}>
+                            Experience
+                            </Link>
+                    </li>                    <li>
+                        <Link
+                            activeClass="active"
                             to="work"
                             spy={true}
                             smooth={true}
@@ -47,17 +57,7 @@ const Navbar1 = props => {
                             Work
                             </Link>
                     </li>
-                    <li>
-                        <Link
-                            activeClass="active"
-                            to="experience"
-                            spy={true}
-                            smooth={true}
-                            offset={-80}
-                            duration={700}>
-                            Experience
-                            </Link>
-                    </li>
+
                     <li>
                     <a href={pdf} target="_blank" rel="noopener noreferrer"><button>Resume</button></a>
                     </li>
