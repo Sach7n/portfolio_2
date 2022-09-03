@@ -1,8 +1,10 @@
 .about_main_div{
     height:100vh;
-    width: calc(100% - 9px);
+    width: 100%;
     margin: 0 ;
     padding: 0;
+    overflow: hidden;
+
 }
 .about_main{
     margin: 0 12% 0 12%;
@@ -36,7 +38,9 @@ h2::after {
     transform: translateY(-0.5rem);
 }
 @media only screen and (max-width: 769px) {
-    
+    .about_main_div{
+        height: 80vh;
+    }    
     .about_main{
         margin: 0 3% 0 3%;
         height: 90vh;

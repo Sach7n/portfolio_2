@@ -1,6 +1,8 @@
 .main_work_div{
   height: 270vh;
-  width: calc(100% - 9px);
+  width: 100%;
+  overflow: hidden;
+
 }
 
 .main-div{
@@ -114,7 +116,7 @@
   
   @media only screen and (max-width: 769px) {
     .main_work_div{
-      height: 150vh;
+      height: 190vh;
      }
     .main-div{
       height:50vh;

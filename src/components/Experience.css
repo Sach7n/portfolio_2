@@ -1,7 +1,9 @@
 .main_div_exp{
   height:100vh;
-  width: calc(100% - 9px);
+  width: 100%;
   margin:  0;
+  overflow: hidden;
+
 
   }
 .main_div_e{
@@ -57,6 +59,7 @@
   @media only screen and (max-width: 769px) {
     .main_div_exp{
       padding-bottom: 30%;
+      height: 160vh;
     }
     .main_div_e{
       margin: 15% 7% 0 7%;
@@ -67,9 +70,8 @@
       background:transparent;
     }  
     .section_title h2{
-      transform:translateX(-12%);
       text-align: center;
-      width:97vw;
+      width:100%;
     }
     .main_divsec {
       margin-top: 0;
