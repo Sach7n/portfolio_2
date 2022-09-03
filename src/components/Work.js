@@ -22,7 +22,34 @@ const Work = () => {
         <div id="work" className="work_title"><h2>Work</h2></div>
 
         <div className="App">
+        <motion.article className="project_pro_1"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-once="true"
+          >
 
+            <div className="info_class_r">
+              <h3 className="title_r">Vallys Bliss</h3>
+              <p className="desc_r">
+                A freelance project for an event management company. The client is an event management company
+                focused on providing event management services. They just needed a fancy show off website to attract 
+                the customers.
+                </p>
+              <p className="techs_r">Reactjs , Pure CSS, Hooks</p>
+              <div className="icons_r">
+                <a className="a_active" href="https://vallysbliss.com/" target="_blank" rel="noreferrer">
+                  <i class="fas fa-external-link-square-alt" ></i>
+                </a>
+              </div>
+            </div>
+
+            <motion.div className="image_r" whileHover={{ zIndex: 3 }} >
+              <motion.img src={p3} alt="abc" whileHover={{ scale: 1.05 }} transition={{ duration: 0.3 }} />
+            </motion.div>
+
+          </motion.article>
           <motion.article className="project_pro_1"
             data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
@@ -87,34 +114,7 @@ const Work = () => {
           </motion.article>
 
 
-          <motion.article className="project_pro_1"
-            data-aos="fade-zoom-in"
-            data-aos-easing="ease-in-back"
-            data-aos-delay="300"
-            data-aos-offset="0"
-            data-aos-once="true"
-          >
-
-            <div className="info_class_r">
-              <h3 className="title_r">Squiggle App</h3>
-              <p className="desc_r">
-                A single page web app which displays the name of the teams initially.
-                By selecting any team the score for all the matches is displayed.
-                If the team is not selected, the score for all the AFL matches is displayed.
-                </p>
-              <p className="techs_r">Reactjs (Context API), Bootstrap 4, Styled components</p>
-              <div className="icons_r">
-                <a className="a_active" href="https://github.com/Sach7n/AFL-Scorecard" target="_blank" rel="noreferrer">
-                  <i class="fas fa-external-link-square-alt" ></i>
-                </a>
-              </div>
-            </div>
-
-            <motion.div className="image_r" whileHover={{ zIndex: 3 }} >
-              <motion.img src={p3} alt="abc" whileHover={{ scale: 1.05 }} transition={{ duration: 0.3 }} />
-            </motion.div>
-
-          </motion.article>
+          
         </div >
 
 
