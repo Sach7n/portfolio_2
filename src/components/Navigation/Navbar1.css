@@ -2,7 +2,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,7 +14,7 @@
     backdrop-filter: blur(10px) opacity(10) grayscale(0.5);
 }
 .nav-logo{
-    margin: 8px 0 0 25px;
+    padding: 2% 0 1% 1%;
 
 }
 .logo_svg{
@@ -62,6 +63,7 @@ cursor: pointer;
         display: none;
     }
     .nav-logo{
-        margin-left: -35px;
+       margin:0 -20%;
+       padding-top: 3%;
     }
 }

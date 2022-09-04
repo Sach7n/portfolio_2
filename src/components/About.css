@@ -4,27 +4,24 @@
     margin: 0 ;
     padding: 0;
     overflow: hidden;
-
 }
 .about_main{
     margin: 0 12% 0 12%;
     background:transparent;
 }
-.about_content{
-    padding-top: 20px;
-}
-.about_title h2{
+h2{
     margin: 0;
     padding: 0;
     text-align: center;
     font-size: clamp(26px,5vw,32px);
   }
-
-.h_4{
+.about_content{
+    padding-top: 2%;
+}
+.about_content>p{
     font-size: 16px;
 }
-.techs_work{
-    font-size: 16px;
+.about_content>div:nth-child(2){
     word-spacing: 30px;
 }
 
@@ -39,14 +36,10 @@ h2::after {
 }
 @media only screen and (max-width: 769px) {
     .about_main_div{
-        height: 80vh;
+        height: 100vh;
+        width: 100%;
     }    
     .about_main{
-        margin: 0 3% 0 3%;
-        height: 90vh;
+        margin: 0 6%;
     }
-    .about_title h2{
-        padding-top: 0px;
-        text-align: center;
-      }
  }

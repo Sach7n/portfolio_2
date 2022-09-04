@@ -33,9 +33,9 @@ const Work = () => {
             <div className="info_class_r">
               <h3 className="title_r">Vallys Bliss</h3>
               <p className="desc_r">
-                A freelance project for an event management company. The client is an event management company
-                focused on providing event management services. They just needed a fancy show off website to attract 
-                the customers.
+                A freelance project for a small sized business. The client is an event management company
+                that provides services such as wedding planning, catering, photography etc. They just wanted
+                a website to expand their reach .
                 </p>
               <p className="techs_r">Reactjs , Pure CSS, Hooks</p>
               <div className="icons_r">

@@ -1,6 +1,6 @@
 .main_div{
     height:100vh;
-    width: calc(100% - 9px);
+    width: 100%;
     margin: 0 ;
     padding: 0;
     overflow: hidden;
@@ -13,19 +13,18 @@
     left:30%;
     transform: translate(-50%,-40%);
 }
-section h1{
+#h1{
     margin: 2%;
     padding: 0;
 }
-.h_1{
-    font-family: 'Source Code Pro' !important;
+h1:nth-child(1){
     font-size: clamp(14px,5vw,16px);
 }
-.h_2{
+h1:nth-child(2){
     font-size: clamp(42px, 8vw, 78px);
     line-height: 1.1;
 }
-.h_3{
+h1:nth-child(3){
     font-size: clamp(25px, 6vw, 52px);
 
 }
@@ -38,11 +37,11 @@ section h1{
         width: 95%;
         transform: translate(-35%,-105%);
     }
-    section h1{
+    #h1{
         margin: 2%;
         padding: 0;
     }
-    .h_1{
+    h1:nth-child(1){
         font-size: 120%;
 
     }

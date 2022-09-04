@@ -16,26 +16,21 @@ const Experience = () => {
 
     return (
         <div className="main_div_exp" >
+
         <div className="main_div_e" >
             <div className="section_title" id="experience" >
                 <h2>Experience</h2>
             </div>
-
             <div className="main_divsec" >
-
-
-
                 <motion.div className="experience_1"
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-back"
                     data-aos-delay="350"
                     data-aos-offset="0"
-                    data-aos-once="true"
-        >
+                    data-aos-once="true">
                     <div className="job_title">
                         <p> AMPL Infotech</p>
                     </div>
-
                     <div className="job_duties">
                         <ul>
                             <li>Developed and maintained code for in-house and client websites primarily utilizing
@@ -54,7 +49,6 @@ const Experience = () => {
                         <p> HTML CSS JavaScript MySQL
                         </p>
                     </div>
-
                 </motion.div>
 
                 <motion.div className="experience_1"
