@@ -37,8 +37,10 @@ const App = () => {
       <About />
       <Experience />
       <Work />
+      <Social />     
 
-      <Social />     </div>
+
+      </div>
   );
 };
 

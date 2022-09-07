@@ -27,3 +27,5 @@ const data1 = [{
     info:"",
     techs:"",
 }]
+
+export {data};
