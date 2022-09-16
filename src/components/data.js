@@ -4,7 +4,7 @@ import p3 from "./4.png";
 
 const data =[{
     title:"Vallys Bliss",
-    desc:"A freelance project for an event management company. The client is an event management company focused on providing event management services. They just needed a fancy show off website to attract the customers.",
+    desc:"A freelance work for an event management company. It includes designing, developing and hosting. The website built with Reactjs and pure CSS. Some of the libraries I used are react-scroll and framer motion.",
     img:p3,
     tech:"Reactjs , Pure CSS, Hooks",
     link:"https://vallysbliss.com/"
@@ -12,7 +12,7 @@ const data =[{
     title:"Travel India",
     desc:"A simple web app to decide where to go on a trip. It gives information about different places to visit. The app is developed using Reactjs and tailwind CSS for designing. The state is managed using hooks. The photos are fetched using pixaby API.",
     img:p2,
-    tech:"Reactjs (Context API), Tailwind CSS, Pixaby API",
+    tech:"Reactjs (Context API),Custome Hooks, Firebase, Tailwind CSS",
     link:"https://travind.netlify.app/"
 },{
     title:"E Commerce store",
