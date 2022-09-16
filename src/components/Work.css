@@ -30,12 +30,13 @@
 }
 
 .work_desc3 {
+  color:whitesmoke;
   padding: 1%;
   height: 47%;
   border-radius: 10px;
-  text-shadow: 2px 1px black;
+  text-shadow: 1px wheat;
   box-shadow: 10px 12px 18px rgba(0, 0, 0, 0.16), 0 12px 18px rgba(0, 0, 0, 0.23);
-  background-color: rgba(1, 2, 0, 0.5);
+  background-color: rgba(1, 2, 0, 0.8);
 }
 
 .work_tech3 {
@@ -61,7 +62,7 @@
 .image4_img {
   
   display: block;
-  width: 100%;
+  width: 99%;
   height: 60%;
   max-height: 60%;
   position: absolute;
@@ -70,12 +71,14 @@
   right: 0;
   transform: translate(77%, -74%);
   transition: 0.2s;
-  opacity: 0.6;
+  opacity: 0.8;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
 
 .image4_img:hover {
   box-shadow: 1px 3px 3px rgba(206, 221, 245, 0.16), 0px 3px 3px rgba(206, 221, 245, 0.23);
   opacity: 1;
+  box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
 
 }
 

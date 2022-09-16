@@ -8,7 +8,7 @@
     transform: translateX(100%);
     transition: transform 0.3s ease-out;
     z-index: 6;
-    background-color:rgba(0.2, 0.2, 0.3, 0.3);
+    background-color:#c7c4c3;
     backdrop-filter: blur(5px) opacity(2) grayscale(0.1);
 
   }
