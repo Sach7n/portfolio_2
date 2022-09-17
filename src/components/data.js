@@ -10,9 +10,9 @@ const data =[{
     link:"https://vallysbliss.com/"
 },{
     title:"Travel India",
-    desc:"A simple web app to decide where to go on a trip. It gives information about different places to visit. The app is developed using Reactjs and tailwind CSS for designing. The state is managed using hooks. The photos are fetched using pixaby API.",
+    desc:"A single page application help you choose where to travel next and also add your favourite place.",
     img:p2,
-    tech:"Reactjs (Context API),Custome Hooks, Firebase, Tailwind CSS",
+    tech:"Reactjs,Custome Hooks, Firebase, Tailwind CSS",
     link:"https://travind.netlify.app/"
 },{
     title:"E Commerce store",
