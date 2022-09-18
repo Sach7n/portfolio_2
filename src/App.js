@@ -33,10 +33,10 @@ const App = () => {
 
       <Sidebar />
       <MainNavigation scheme={theme} />
-      <Hero />
+      <Hero theme={theme} />
       <About />
       <Experience />
-      <Work />
+      <Work  theme={theme} />
       <Social />     
 
 

@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 import { data } from './data'
 
 
-const Work = () => {
+const Work = (theme) => {
   useEffect(() => {
     AOS.init({
       offset: 300, // offset (in px) from the original trigger point
@@ -14,6 +14,7 @@ const Work = () => {
       duration: 500 // values from 0 to 3000, with step 50ms
     });
   }, []);
+  console.log(theme.theme.dark)
   return (
     <div className="main_work_div">
       <div className="main-div">
@@ -27,7 +28,11 @@ const Work = () => {
             data-aos-once="true">
             <div className='info3'>
               <div id="work" className="work_title3"><h3>{item.title}</h3></div>
-              <div className='work_desc3'><p>{item.desc}</p></div>
+              <div className='work_desc3' style={{backgroundColor: theme.theme.color,
+                                                  color:theme.theme.backgroundColor,
+                                                  transition:"2s"}}>
+                <p>{item.desc}</p>
+                </div>
               <div className='work_tech3'><p>{item.tech}</p></div>
               <div className='work_link3'>
                 <a className="a_active" href={item.link} target="_blank" rel="noreferrer">

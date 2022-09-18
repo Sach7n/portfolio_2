@@ -1,30 +1,38 @@
 
-    const first = [
+const first = [
     {
-        backgroundColor: "#fcfbfa",
-        color: "#4C0033",
-        animation:"ease 1s",
+        backgroundColor: "#EDF9FE",
+        color: "#001C55",
+        animation: "ease 1s",
+        dark: "#00072D",
+        secondaryText: "#7F8DAA",
         transition: "2s",
         height: "100%",
     },
     {
-       // backgroundColor: "#1A374D",
-        color: "#1A374D",
-        animation:"ease 1s",
-        transition: "2s", 
+        backgroundColor: "#FFFEFD",
+        color: "#5D2A42",
+        animation: "ease 1s",
+        dark: "#00072D",
+        secondaryText: "#8D697A",
+        transition: "2s",
         height: "100%"
     },
     {
-        //backgroundColor: "#191A19",
-        color: "#1C0C5B",
-        animation:"ease 1s",
-        transition: "2s", 
+        backgroundColor: "#F8EFF4",
+        color: "#231942",
+        dark: "#00072D",
+        secondaryText: "#655E7A",
+        animation: "ease 1s",
+        transition: "2s",
         height: "100%"
     },
     {
-        //backgroundColor: "#2E0249",
-        color: "#692501",
-        animation:"ease 1s",
+        backgroundColor: "#FFFFEB",
+        color: "#003F2F",
+        dark: "#00072D",
+        secondaryText: "#4CA58F",
+        animation: "ease 1s",
         transition: "2s",
         height: "100%"
 
@@ -32,4 +40,4 @@
 ]
 
 
-    export default first;
+export default first;

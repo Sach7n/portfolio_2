@@ -3,12 +3,6 @@ import p2 from "./3.png";
 import p3 from "./4.png";
 
 const data =[{
-    title:"Vallys Bliss",
-    desc:"A freelance work for an event management company. It includes designing, developing and hosting. The website built with Reactjs and pure CSS. Some of the libraries I used are react-scroll and framer motion.",
-    img:p3,
-    tech:"Reactjs , Pure CSS, Hooks",
-    link:"https://vallysbliss.com/"
-},{
     title:"Travel India",
     desc:"A single page application help you choose where to travel next and also add your favourite place.",
     img:p2,
@@ -20,6 +14,12 @@ const data =[{
     img:p1,
     tech:"Reactjs (Context API), Hooks",
     link:"https://react-ecomm1.netlify.app/"
+},{
+    title:"Vallys Bliss",
+    desc:"A freelance work for an event management company. It includes designing, developing and hosting. The website built with Reactjs and pure CSS. Some of the libraries I used are react-scroll and framer motion.",
+    img:p3,
+    tech:"Reactjs , Pure CSS, Hooks",
+    link:"https://vallysbliss.com/"
 }]
 
 const data1 = [{
