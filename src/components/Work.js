@@ -27,7 +27,7 @@ const Work = (theme) => {
             data-aos-offset="0"
             data-aos-once="true">
             <div className='info3'>
-              <div id="work" className="work_title3"><h3>{item.title}</h3></div>
+              <div id="work" className="work_title3">{item.title}</div>
               <div className='work_desc3' style={{backgroundColor: theme.theme.color,
                                                   color:theme.theme.backgroundColor,
                                                   transition:"2s"}}>
