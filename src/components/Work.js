@@ -14,7 +14,6 @@ const Work = (theme) => {
       duration: 500 // values from 0 to 3000, with step 50ms
     });
   }, []);
-  console.log(theme.theme.dark)
   return (
     <div className="main_work_div">
       <div className="main-div">
